@@ -1,0 +1,35 @@
+<div class="w3-text-red-d3 w3-container">
+    <h1>Pricing</h1>
+    <hr class="w3-red-d3 underline">
+</div>
+<div class="w3-container">
+    <div class="w3-row-padding w3-section w3-stretch">
+        <div class="w3-third" *ngFor="let pricing of pricingCharts">
+            <div class="w3-card-2 w3-red-l5 w3-hover-white">
+                <div class="w3-section w3-panel w3-red-d4 w3-xlarge w3-padding-16 w3-center">
+                    {{ pricing.destination }}
+                </div>
+                <div>
+                    <div class="w3-text-red-d3 w3-center w3-padding-16 w3-xxxlarge">{{ pricing.price }}</div>
+                    <div class="w3-center w3-xlarge">{{ pricing.rate }}</div>
+                    <br>
+                    <ul class="w3-ul w3-border-top" id="pricing-features">
+                        <li class="w3-padding-large" *ngFor="let feature of pricing.features">
+                            {{ feature }}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="w3-container" style="margin-left: 2%;">
+    <div class="w3-large w3-text-red-d5"><b>**Extras</b></div>
+    <ul id="extras">
+        <li>Toll & parking fees as needed</li>
+        <li>Night shift allowance for driver after 11 PM</li>
+    </ul>
+</div>
+<br>
+<br>

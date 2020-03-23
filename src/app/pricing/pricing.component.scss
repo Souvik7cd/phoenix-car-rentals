@@ -1,0 +1,9 @@
+ul#pricing-features {
+    color: darken($color: rgb(131, 120, 120), $amount: 20);
+    li:before {
+        content: '✔';
+    }
+}
+ul#extras {
+    margin-left: -15px;
+}
