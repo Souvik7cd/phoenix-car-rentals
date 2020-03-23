@@ -14,7 +14,9 @@ h1,h2,h3,h4,h5,h6,.w3-large,.w3-xlarge,.w3-xxxlarge {font-family: 'Montserrat', 
         margin-left: 14vw;
     }
     .image-width {
-        width: 70vw
+      object-fit: cover;
+      width: 70vw;
+      height: 49vw;
     }
 }
 @media only screen and (max-width: 1366px) {
@@ -22,7 +24,8 @@ h1,h2,h3,h4,h5,h6,.w3-large,.w3-xlarge,.w3-xxxlarge {font-family: 'Montserrat', 
         margin-left: 12vw;
     }
     .image-width {
-        width: 70vw
+        width: 70vw;
+        height: 49vw;
     }
 }
 @media only screen and (max-width: 1024px) {
@@ -35,7 +38,8 @@ h1,h2,h3,h4,h5,h6,.w3-large,.w3-xlarge,.w3-xxxlarge {font-family: 'Montserrat', 
         margin-left: 13vw;
     }
     .image-width {
-        width: 100vw
+        width: 100vw;
+        height: 70vw;
     }
 }
 @media only screen and (max-width: 425px) {

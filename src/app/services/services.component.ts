@@ -21,7 +21,7 @@ export class ServicesComponent implements OnInit {
 
   services = [
     {
-      img: "../../assets/images/rental-car.png",
+      img: "https://image.flaticon.com/icons/svg/1965/1965206.svg",
       title: "Easy Rentals",
       desc: {
         line0: "Lorem ipsum dolor sit amet",
@@ -29,7 +29,7 @@ export class ServicesComponent implements OnInit {
       }
     },
     {
-      img:"../../assets/images/taxi-driver.png", 
+      img:"https://image.flaticon.com/icons/svg/1909/1909673.svg", 
       title:"Expert Drivers",
       desc: {
         line0: "Lorem ipsum dolor sit amet",
@@ -37,7 +37,7 @@ export class ServicesComponent implements OnInit {
       }
     },
     {
-      img:"../../assets/images/clock.png", 
+      img:"https://image.flaticon.com/icons/svg/2476/2476160.svg", 
       title:"24x7 Service",
       desc: {
         line0: "Lorem ipsum dolor sit amet",
@@ -45,7 +45,7 @@ export class ServicesComponent implements OnInit {
       }
     },
     {
-      img:"../../assets/images/rupee.png", 
+      img:"https://image.flaticon.com/icons/svg/1829/1829734.svg", 
       title:"No Hidden Costs",
       desc: {
         line0: "Lorem ipsum dolor sit amet",

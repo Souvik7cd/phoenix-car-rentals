@@ -14,9 +14,9 @@ export class HomeComponent implements OnInit {
   }
 
   imgSources = [
-    '../../assets/images/home-img-0.jpg',
-    '../../assets/images/home-img-1.jpg',
-    '../../assets/images/home-img-2.jpg'
+    'https://cdn.pixabay.com/photo/2016/11/18/21/41/car-1837006_960_720.jpg',
+    'https://cdn.pixabay.com/photo/2019/07/07/14/03/fiat-4322521_960_720.jpg',
+    'https://cdn.pixabay.com/photo/2017/05/31/09/11/car-2359573_960_720.jpg'
   ]
 
   carousel(): any {
