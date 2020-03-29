@@ -23,10 +23,6 @@ h1,h2,h3,h4,h5,h6,.w3-large,.w3-xlarge,.w3-xxxlarge {font-family: 'Montserrat', 
     .content {
         margin-left: 12vw;
     }
-    /* .image-width {
-        width: 70vw;
-        height: 49vw;
-    } */
 }
 @media only screen and (max-width: 1024px) {
     .content {
@@ -46,7 +42,4 @@ h1,h2,h3,h4,h5,h6,.w3-large,.w3-xlarge,.w3-xxxlarge {font-family: 'Montserrat', 
     .content {
         margin-left: 0;
     }
-    /* .image-width {
-        width: 100vw
-    } */
 }
