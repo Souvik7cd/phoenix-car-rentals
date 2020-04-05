@@ -12,6 +12,9 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.index = 0;
   }
+  title = "Phoenix";
+  subtitle = ["Car Rentals", "CAR RENTALS"];
+  message = "Transform your journeys into memories";
 
   imgSources = [
     'https://cdn.pixabay.com/photo/2016/11/18/21/41/car-1837006_960_720.jpg',

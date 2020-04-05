@@ -24,24 +24,24 @@ export class ServicesComponent implements OnInit {
       img: "https://image.flaticon.com/icons/svg/1965/1965206.svg",
       title: "Easy Rentals",
       desc: {
-        line0: "Lorem ipsum dolor sit amet",
-        line1: "consectetur adipiscing elit"
+        line0: "Give us a call, message",
+        line1: "or drop an email for renting"
       }
     },
     {
       img:"https://image.flaticon.com/icons/svg/1909/1909673.svg", 
-      title:"Expert Drivers",
+      title:"Professional Chauffeur",
       desc: {
-        line0: "Lorem ipsum dolor sit amet",
-        line1: "consectetur adipiscing elit"
+        line0: "Our expert hands will",
+        line1: "drive you to your destination"
       }
     },
     {
       img:"https://image.flaticon.com/icons/svg/2476/2476160.svg", 
       title:"24x7 Service",
       desc: {
-        line0: "Lorem ipsum dolor sit amet",
-        line1: "consectetur adipiscing elit"
+        line0: "We are always",
+        line1: "available at your service"
       }
     },
     {

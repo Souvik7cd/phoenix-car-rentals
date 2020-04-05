@@ -8,6 +8,11 @@ h1,h2,h3,h4,h5,h6,.w3-large,.w3-xlarge,.w3-xxxlarge {font-family: 'Montserrat', 
     .content {
         margin-left: 30vw;
     }
+    .image-width {
+      object-fit: cover;
+      width: 100vw;
+      
+    }
 }
 @media only screen and (max-width: 1440px) {
     .content {

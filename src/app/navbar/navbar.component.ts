@@ -10,10 +10,10 @@ export class NavbarComponent implements OnInit {
   @Output('newElementIndex') elementIndex = new EventEmitter<number>();
 
   navLinks = [
-    { name: 'Home', icon: 'home' }, 
-    { name: 'Services', icon: 'directions_car' }, 
-    { name: 'Pricing', icon: 'account_balance_wallet' }, 
-    { name: 'Contact', icon: 'email' }
+    { name: 'Home', icon: 'fas fa-home' }, 
+    { name: 'Services', icon: 'fas fa-car-alt' }, 
+    { name: 'Pricing', icon: 'fas fa-wallet' }, 
+    { name: 'Contact', icon: 'fas fa-phone-alt' }
   ];
   
   constructor() { }
