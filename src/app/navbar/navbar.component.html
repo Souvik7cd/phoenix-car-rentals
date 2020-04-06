@@ -1,12 +1,16 @@
-<nav class="w3-sidebar w3-bar-block w3-red-d3 w3-hide-small w3-small w3-center" style="width: 90px;">
-	<div class="w3-padding w3-opacity w3-red-l2" style="font-weight: bolder;">
-		<!--<div class="w3-large">Phoenix</div>
-		<div class="w3-small">CAR RENTALS</div>-->
+<nav class="w3-sidebar w3-bar-block w3-red-d3 w3-hide-small w3-small w3-center" style="width: 80px;">
+	<!--<div class="w3-padding w3-opacity w3-red-l2" style="font-weight: bolder;">
+		<div class="w3-large">Phoenix</div>
+		<div class="w3-small">CAR RENTALS</div>
     <div class="w3-xxxlarge"><i class="fab fa-phoenix-framework"></i></div>
-	</div>
+	</div>-->
+  <div class="w3-padding-32 w3-opacity">
+    <img src="https://vectr.com/souvik7cd/gayvYuUiNE.svg?width=229.75&height=262.46&select=group_bjWWuvT0h&source=selection" class="w3-image" style="width: 50px">
+  </div>
 	<div *ngFor="let link of navLinks; let i = index">
 		<button (click)="sendElementIndex(i)"
-            class="w3-bar-item w3-btn w3-hover-white w3-padding-16">
+            class="w3-bar-item w3-button w3-hover-red-d5 w3-padding-16"
+            style="padding-left: 0px; padding-right: 0px">
             <div class="w3-xlarge"><i [class]="link.icon"></i></div>
             <div class="w3-small w3-upper">{{link.name}}</div>
         </button>
