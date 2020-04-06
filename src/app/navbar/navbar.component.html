@@ -9,11 +9,11 @@
   </div>
 	<div *ngFor="let link of navLinks; let i = index">
 		<button (click)="sendElementIndex(i)"
-            class="w3-bar-item w3-button w3-hover-red-d5 w3-padding"
-            style="padding-left: 0px; padding-right: 0px">
-            <div class="w3-xlarge"><i [class]="link.icon"></i></div>
+            class="w3-bar-item w3-button w3-hover-white"
+            style="padding: 12px 0px">
+            <div class="w3-xxlarge"><i [class]="link.icon"></i></div>
             <div class="w3-small w3-upper">{{link.name}}</div>
-        </button>
+    </button>
 	</div>
 </nav>
 <nav class="w3-bar w3-bottom w3-hide-large w3-hide-medium w3-red-d3" style=" box-shadow: black 0 -2px 10px;">
