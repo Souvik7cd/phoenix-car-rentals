@@ -9,7 +9,7 @@
   </div>
 	<div *ngFor="let link of navLinks; let i = index">
 		<button (click)="sendElementIndex(i)"
-            class="w3-bar-item w3-button w3-hover-white"
+            class="w3-bar-item w3-button w3-red-grad"
             style="padding: 12px 0px">
             <div class="w3-xxlarge"><i [class]="link.icon"></i></div>
             <div class="w3-small w3-upper">{{link.name}}</div>
