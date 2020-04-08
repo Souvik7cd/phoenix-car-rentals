@@ -1,0 +1,8 @@
+button.sidebutton {
+  color:#fff !important; 
+  background-color:#c5170a !important;
+  background: linear-gradient(#8d1007, #c5170a) !important
+}
+button.w3-hover-white :hover {
+  background: initial;
+}
